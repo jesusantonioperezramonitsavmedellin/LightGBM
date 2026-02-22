@@ -4,7 +4,7 @@
 Este repositorio contiene la implementación del modelo de Machine Learning basado en **Gradient Boosting** para la optimización de la cobranza y proyección de rentas en **VINSUR**.
 
 ## 🚀 Descripción del Proyecto
-El objetivo de este módulo es transformar los datos históricos de facturación y rentas de maquinaria (extraídos previamente por el módulo de IA Multimodal) en información accionable. Utiliza el algoritmo **LightGBM** para predecir tendencias de pago y detectar posibles retrasos en la liquidación de servicios.
+El objetivo de este módulo es transformar los datos históricos de facturación, ingresos y gastos por todos los departamentos de la empresa en información accionable. Utiliza el algoritmo **LightGBM** para predecir tendencias de ingresos y gastos y destectar incrementos o decrementos en ciertas areas.
 
 ## 🛠️ Stack Tecnológico
 * **Core:** Python 3.10+
