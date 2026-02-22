@@ -1,27 +1,38 @@
 # LightGBM
-# 📈 Módulo de Predicción Financiera: LightGBM Predictor
+📈 Módulo de Inteligencia Financiera: LightGBM Predictor
+Este repositorio contiene la implementación de un sistema de análisis y proyección financiera desarrollado para VINSUR. El proyecto utiliza algoritmos de Gradient Boosting para contrastar el desempeño histórico de 2025 frente a las métricas actuales de 2026.
 
-Este repositorio contiene la implementación del modelo de Machine Learning basado en **Gradient Boosting** para la optimización financiera en **VINSUR**.
+🚀 Objetivos del Sistema
+Síntesis de Datos: Consolidación de cuentas base y expansión de series de tiempo financieras.
 
-## 🚀 Descripción del Proyecto
-El objetivo de este módulo es transformar los datos históricos de facturación, ingresos y gastos por todos los departamentos de la empresa en información accionable. Utiliza el algoritmo **LightGBM** para predecir tendencias economicas para detectar incrementos o decrementos en ciertas areas.
+Proyección Predictiva: Uso de LightGBM para estimar ingresos y gastos del cierre de ejercicio 2026.
 
-## 🛠️ Stack Tecnológico
-* **Core:** Python 3.10+
-* **ML Model:** LightGBM (Light Gradient Boosting Machine).
-* **Data Handling:** Pandas & NumPy.
-* **Visualization:** Matplotlib & Seaborn (Análisis de importancia de variables).
-* **Excel Integration:** OpenPyXL para la sincronización con el Libro Maestro.
+Auditoría Inteligente: Identificación automática de desviaciones presupuestarias superiores al 10% mediante análisis interanual.
 
-## 📊 Características del Modelo
-* **Eficiencia:** Implementación diseñada para procesar grandes volúmenes de datos tabulares con bajo consumo de memoria.
-* **Métricas de Éxito:** El modelo fue evaluado mediante MAE (Mean Absolute Error) y RMSE, logrando una precisión superior al 95% en proyecciones mensuales.
-* **Interpretabilidad:** Se incluyen gráficas de *Feature Importance* para identificar qué factores (tipo de cliente, zona, equipo) afectan más la rapidez de los pagos.
+🛠️ Stack Tecnológico
+Lenguaje: Python 3.10+
 
-## 📂 Contenido del Repositorio
-* `Analisis_Financiero_LightGBM.ipynb`: Notebook principal con el ciclo de vida del modelo (EDA, Entrenamiento, Validación).
-* `Analisis_Financiero_LightGBM.pdf`: Copia de respaldo con los resultados y gráficas renderizadas.
-* `data/`: Estructura sugerida para los datasets (anonimizados).
+Modelado: lightgbm (LGBMRegressor).
 
-## 📝 Instrucciones de Visualización
-Para una auditoría rápida del código, se recomienda abrir el archivo `.pdf` incluido. Si desea explorar la lógica de entrenamiento, el notebook está optimizado para su visualización directa en GitHub o mediante el uso de la tecla `.` (punto) para activar el entorno **GitHub Dev**.
+Evaluación: sklearn.metrics (RMSE - Root Mean Squared Error).
+
+Procesamiento: pandas para manipulación de DataFrames y numpy para operaciones vectoriales.
+
+Visualización: seaborn y matplotlib para la generación de dashboards estadísticos.
+
+📊 Metodología y Análisis de Datos
+El sistema aplica técnicas avanzadas de ciencia de datos detalladas en el notebook:
+
+Feature Engineering: Transformación de variables categóricas (Departamentos y Conceptos) para su procesamiento en el modelo.
+
+Análisis YoY (Year-over-Year): Comparativa mensual directa para detectar picos atípicos en el gasto operativo.
+
+Métricas de Error: El modelo se ajusta minimizando el RMSE, asegurando proyecciones alineadas con la realidad contable de la empresa.
+
+📂 Estructura de Evidencias
+Analisis_Financiero_LightGBM.ipynb: Pipeline completo desde la carga de datos hasta la inferencia del modelo.
+
+Analisis_Financiero_LightGBM - Colab.pdf: Documento de Respaldo. Contiene las 8 gráficas clave y los resultados de ejecución "congelados" para auditoría inmediata.
+
+📝 Instrucciones de Visualización
+Para revisar las gráficas de dispersión (stripplot) y las tendencias de gasto, se recomienda abrir el PDF adjunto. Los desarrolladores interesados en la lógica del hiperparámetro y el entrenamiento pueden inspeccionar el notebook directamente en el entorno de GitHub Dev (presionando la tecla .).ub Dev**.
