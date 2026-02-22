@@ -1,10 +1,10 @@
 # LightGBM
 # 📈 Módulo de Predicción Financiera: LightGBM Predictor
 
-Este repositorio contiene la implementación del modelo de Machine Learning basado en **Gradient Boosting** para la optimización de la cobranza y proyección de rentas en **VINSUR**.
+Este repositorio contiene la implementación del modelo de Machine Learning basado en **Gradient Boosting** para la optimización financiera en **VINSUR**.
 
 ## 🚀 Descripción del Proyecto
-El objetivo de este módulo es transformar los datos históricos de facturación, ingresos y gastos por todos los departamentos de la empresa en información accionable. Utiliza el algoritmo **LightGBM** para predecir tendencias de ingresos y gastos y destectar incrementos o decrementos en ciertas areas.
+El objetivo de este módulo es transformar los datos históricos de facturación, ingresos y gastos por todos los departamentos de la empresa en información accionable. Utiliza el algoritmo **LightGBM** para predecir tendencias economicas para detectar incrementos o decrementos en ciertas areas.
 
 ## 🛠️ Stack Tecnológico
 * **Core:** Python 3.10+
@@ -19,8 +19,8 @@ El objetivo de este módulo es transformar los datos históricos de facturación
 * **Interpretabilidad:** Se incluyen gráficas de *Feature Importance* para identificar qué factores (tipo de cliente, zona, equipo) afectan más la rapidez de los pagos.
 
 ## 📂 Contenido del Repositorio
-* `LightGBM_Vinsur_Predictor.ipynb`: Notebook principal con el ciclo de vida del modelo (EDA, Entrenamiento, Validación).
-* `LightGBM_Visual_Results.pdf`: Copia de respaldo con los resultados y gráficas renderizadas.
+* `Analisis_Financiero_LightGBM.ipynb`: Notebook principal con el ciclo de vida del modelo (EDA, Entrenamiento, Validación).
+* `Analisis_Financiero_LightGBM.pdf`: Copia de respaldo con los resultados y gráficas renderizadas.
 * `data/`: Estructura sugerida para los datasets (anonimizados).
 
 ## 📝 Instrucciones de Visualización
